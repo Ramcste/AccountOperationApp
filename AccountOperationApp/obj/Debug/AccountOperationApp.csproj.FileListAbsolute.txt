@@ -1,0 +1,8 @@
+C:\Users\Web App Develop .Net\Desktop\Lab Practice\AccountOperationApp\AccountOperationApp\bin\Debug\AccountOperationApp.exe.config
+C:\Users\Web App Develop .Net\Desktop\Lab Practice\AccountOperationApp\AccountOperationApp\bin\Debug\AccountOperationApp.exe
+C:\Users\Web App Develop .Net\Desktop\Lab Practice\AccountOperationApp\AccountOperationApp\bin\Debug\AccountOperationApp.pdb
+C:\Users\Web App Develop .Net\Desktop\Lab Practice\AccountOperationApp\AccountOperationApp\obj\Debug\AccountOperationApp.AccountOperation.resources
+C:\Users\Web App Develop .Net\Desktop\Lab Practice\AccountOperationApp\AccountOperationApp\obj\Debug\AccountOperationApp.Properties.Resources.resources
+C:\Users\Web App Develop .Net\Desktop\Lab Practice\AccountOperationApp\AccountOperationApp\obj\Debug\AccountOperationApp.csproj.GenerateResource.Cache
+C:\Users\Web App Develop .Net\Desktop\Lab Practice\AccountOperationApp\AccountOperationApp\obj\Debug\AccountOperationApp.exe
+C:\Users\Web App Develop .Net\Desktop\Lab Practice\AccountOperationApp\AccountOperationApp\obj\Debug\AccountOperationApp.pdb
