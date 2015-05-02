@@ -34,12 +34,12 @@ namespace AccountOperationApp
 
         private void depositAmountButton_Click(object sender, EventArgs e)
         {
-      
+        
 
-            account.depositAmount = double.Parse(amountTextBox.Text);
-            account.balance += account.depositAmount;
 
-            MessageBox.Show("You have deposited " + account.depositAmount + " in your account.  and your deposit amount is added to balance");
+            MessageBox.Show("You have deposited " + double.Parse(amountTextBox.Text) + " in your account.  and your deposit amount is added to balance");
+          
+            account.balance = account.GetDepositAmount(double.Parse(amountTextBox.Text));
             
             amountTextBox.Text = "";
         }
@@ -47,17 +47,21 @@ namespace AccountOperationApp
         private void withDrawAmountButton_Click(object sender, EventArgs e)
         {
    
-            account.withdrawAmount = double.Parse(amountTextBox.Text);
+       
 
-            if (account.balance<account.withdrawAmount)
+            if (account.balance<double.Parse(amountTextBox.Text))
             {
                 MessageBox.Show("You balance  amount is less than  withdraw amount");
             }
             else
+            
             {
-                account.balance -= account.withdrawAmount;
-                MessageBox.Show("You have withdraw " + account.withdrawAmount + " from your account and and your  balance is reduced.");
+            
+           MessageBox.Show("You have withdraw " + double.Parse(amountTextBox.Text) + " from your account and and your  balance is reduced.");
+
+                account.balance=account.GetWithdrawAmount(double.Parse(amountTextBox.Text));
                 amountTextBox.Text = "";
+
                 
             }
          
